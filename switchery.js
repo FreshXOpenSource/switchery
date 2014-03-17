@@ -189,8 +189,8 @@ Switchery.prototype.setSpeed = function() {
     };
   }
 
-  transitionize(this.switcher, switcherProp);
-  transitionize(this.jack, jackProp);
+  new transitionize(this.switcher, switcherProp);
+  new transitionize(this.jack, jackProp);
 };
 
 /**
@@ -247,7 +247,7 @@ Switchery.prototype.handleClick = function() {
     , switcher = this.switcher;
 
   if (this.isDisabled() === false) {
-    fastclick(switcher);
+    new fastclick(switcher);
 
     if (switcher.addEventListener) {
       switcher.addEventListener('click', function() {
