@@ -1,4 +1,3 @@
-
 /**
  * Switchery 0.5.0
  * http://abpetkov.github.io/switchery/
@@ -16,8 +15,8 @@
  * External dependencies.
  */
 
-var transitionize = require('transitionize')
-  , fastclick = require('fastclick');
+var transitionize = Transitionize
+var fastclick = FastClick
 
 /**
  * Expose `Switchery`.
