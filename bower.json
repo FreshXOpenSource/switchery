@@ -25,7 +25,7 @@
     ".*"
   ],
   "dependencies": {
-    "transitionize": "*",
+    "transitionize": "https://github.com/FreshXOpenSource/transitionize.git",
     "fastclick": "v0.6.11"
   },
   "devDependencies": {}
