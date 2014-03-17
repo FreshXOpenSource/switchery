@@ -22,7 +22,7 @@ var fastclick = FastClick
  * Expose `Switchery`.
  */
 
-module.exports = Switchery;
+//module.exports = Switchery;
 
 /**
  * Set Switchery default values.
