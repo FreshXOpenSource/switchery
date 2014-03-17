@@ -1,7 +1,7 @@
 {
   "name": "switchery",
   "main": "dist/switchery.js",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "homepage": "abpetkov.github.io/switchery",
   "authors": [
     "Alexander Petkov"
@@ -25,7 +25,7 @@
     ".*"
   ],
   "dependencies": {
-    "transitionize": "https://github.com/FreshXOpenSource/transitionize.git",
+    "transitionize": "https://github.com/FreshXOpenSource/transitionize.git#0.0.4",
     "fastclick": "v0.6.11"
   },
   "devDependencies": {}
