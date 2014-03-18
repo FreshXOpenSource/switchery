@@ -151,7 +151,7 @@ Switchery.prototype.setPosition = function (clicked) {
   if (checked === true) {
     this.element.checked = true;
 
-    if (window.getComputedStyle) jack.style.left = parseInt(window.getComputedStyle(switcher).width - 2) - jack.offsetWidth + 'px';
+    if (window.getComputedStyle) jack.style.left = parseInt(window.getComputedStyle(switcher).width) - (jack.offsetWidth + 2) + 'px';
     else jack.style.left = parseInt(switcher.currentStyle['width']) - jack.offsetWidth + 'px';
 
     if (this.options.color) this.colorize();
